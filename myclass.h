@@ -4,9 +4,10 @@
 class MyClass {
   private:
     int x;
+    int y;
   public:
     MyClass();
-    MyClass(int x_);
+    MyClass(int x_); 
     int getX();
 };
 
